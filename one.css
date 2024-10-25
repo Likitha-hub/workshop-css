@@ -1,0 +1,116 @@
+body{
+    display:flex;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center; 
+      gap:30px 30px;
+    
+}
+
+
+.parent-one{
+      display:flex;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img{
+        width:500px;
+        height:400px;
+    }
+}
+
+.child-two{
+    width:40%;
+}
+
+.parent-two,.parent-three{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      width:40%;
+      .child-three{
+    
+      
+        img{
+            width: 300px;
+            height: 200px;
+        }
+       
+    }
+    .child-four{
+       width:50%;
+        p{
+            border: 2px solid blueviolet;
+            padding:10px;
+            width:40%;
+            text-transform: uppercase;
+            text-align: center;
+        }
+       
+    }
+
+
+}
+.child-six{
+    img{
+        width: 300px;
+        height: 200px;
+    }
+ 
+}
+.child-five{
+    p{
+        border: 2px solid blueviolet;
+        padding:10px;
+        width:40%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.parent-four{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    img{
+width: 100px;
+height:100px;
+    }
+  
+
+ .box-1,.box-2{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap:15px ;
+
+
+
+
+    }
+ .box-1 > div {
+
+        width: 15%;
+       
+       
+}
+.box-2 > div {
+
+    width: 15%;
+   
+   
+}
+.parent-five,.parent-six{
+    display: flex;
+
+justify-content: center;
+align-items: center;
+width:50%;
+a{
+ color: brown;
+}
+}
